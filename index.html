@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caleb House - Web Developer</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="navbar">
@@ -63,7 +64,9 @@
             <h1>Felix's Cafe</h1>
             <img class="fullscreen-img" src="./img/felixs-cafe.png" alt="felix's cafe">
             <p>Felix's Cafe was a fictional coffee company, meant to exercise my abilities in design. It was made entirely of HTML and CSS.</p>
-            <a href="https://60f5abe534da350007bea3f1--pensive-elion-ae572c.netlify.app/index.html">See more</a>
+            <div class="link-bundle">
+                <a href="https://60f5abe534da350007bea3f1--pensive-elion-ae572c.netlify.app/index.html">See more</a>
+            </div>
         </div>
     </div>
     <div id="contact">
@@ -78,7 +81,17 @@
             <textarea id="message" name="message" required></textarea>
             <input type="submit" value="Send">
         </form>
-    </div>    
+    </div>
+    <footer>
+        <div id="resume">
+            <h2>My Resume</h2>
+            <p>Click the button below to download a copy of my resume.</p>
+            <a href="./resume.pdf" download>Download Resume</a>
+        </div>
+        <p>Connect with me:</p>
+        <div class="link-bundle"><a href="https://github.com/calebhouse99" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/calebehouse/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></div>
+    </footer>    
     <script src="./index.js"></script>
 </body>
 </html>

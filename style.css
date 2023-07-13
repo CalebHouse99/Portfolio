@@ -211,3 +211,58 @@ body {
 #contact input[type="submit"]:hover {
     background: #0088cc;
 }
+
+/* Footer */
+footer {
+    font-family:'Open Sans', sans-serif;
+    background-color: #00AAFF;
+    padding: 1.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    color: #fff;
+}
+
+footer h2 {
+    font-size: 2rem;
+    -webkit-text-stroke: .5px #000;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #fff;
+    transition: all 0.75s ease;
+}
+
+footer p {
+    padding: 0.5rem;
+}
+
+footer #resume a {
+    border: solid 3px #000;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+footer #resume a:hover {
+    border: solid 3px #fff;
+    transition: all 0.75s ease;
+}
+
+footer #resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
