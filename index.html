@@ -17,6 +17,9 @@
                 <a href="#about">About</a>
             </li>
             <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
                 <a href="#contact">Contact</a>
             </li>
         </ul>
@@ -28,5 +31,54 @@
             <h3>Front-end Web Developer</h3>
         </div>
     </div>
+    <div id="about">
+        <img src="./img/holberton.webp" alt="holberton">
+        <div class="text-half">
+            <h1>About Me</h1>
+            <p>
+                Motivated and focused, I set out on my journey as a front-end developer in 2020. Since then, I've been hooked on how coding can dramatically change the way users interact with a website. My curiosity didn't stop there; I dived into back-end concepts to understand how the whole web application works, making me a well-rounded developer.
+                <br><br>
+                My knack for solving problems and my never-quit attitude helped me push through the tough parts, and as a result, I've gotten really good at building user-friendly and smooth web apps that look great.
+                <br><br>
+                From May 2022 to December 2023, I embarked on an intensive 20-month program at Holberton School Tulsa. The program pushed me to my limits and beyond, broadening my knowledge and refining my skills in front-end development.
+                <br><br>
+                I'm excited to bring my strong communication skills, dedication, and front-end development expertise to a team that's as passionate about making a difference through innovative web solutions as I am. Let's build some awesome digital experiences together!
+            </p>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="third-proj">
+            <h1>Hogwarts</h1>
+            <img class="fullscreen-img" src="./img/hogwarts.png" alt="hogwarts">
+            <p>This project was for Holberton School Tulsa, requiring a Harry Potter-themed website. It was made using the React library.</p>
+            <a href=""></a>
+        </div>
+        <div class="third-proj">
+            <h1>Rooted Faith</h1>
+            <img class="fullscreen-img" src="./img/rooted-faith.png" alt="rooted faith">
+            <p>Rooted Faith was a personal project, aimed at rooting my Christian beliefs in scripture. It was also made using the React library.</p>
+            <a href="https://rootedfaith.netlify.app/">See more</a>
+        </div>
+        <div class="third-proj">
+            <h1>Felix's Cafe</h1>
+            <img class="fullscreen-img" src="./img/felixs-cafe.png" alt="felix's cafe">
+            <p>Felix's Cafe was a fictional coffee company, meant to exercise my abilities in design. It was made entirely of HTML and CSS.</p>
+            <a href="https://60f5abe534da350007bea3f1--pensive-elion-ae572c.netlify.app/index.html">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/{your_formspree_id}" method="POST">
+            <input type="hidden" name="_replyto" value="calebhouse99@gmail.com">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="_replyto" required>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>    
+    <script src="./index.js"></script>
 </body>
 </html>
