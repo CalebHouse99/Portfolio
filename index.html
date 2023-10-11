@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caleb House - Web Developer</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -29,8 +30,9 @@
         <div class="text-wrapper">
             <h1>Hello!</h1>
             <h1>I'm Caleb House</h1>
-            <h3>Front-end Web Developer</h3>
+            <h3><span class="auto-type"></span></h3>
         </div>
+        <div class="hero-image"></div>
     </div>
     <div id="about">
         <img src="./img/holberton.webp" alt="holberton">
@@ -39,7 +41,7 @@
             <p>
                 Motivated and focused, I set out on my journey as a front-end developer in 2020. Since then, I've been hooked on how coding can dramatically change the way users interact with a website. My curiosity didn't stop there; I dived into back-end concepts to understand how the whole web application works, making me a well-rounded developer.
                 <br><br>
-                My knack for solving problems and my never-quit attitude helped me push through the tough parts, and as a result, I've gotten really good at building user-friendly and smooth web apps that look great.
+                My knack for solving problems and my never-quit attitude helped me push through the tough parts, and as a result, I've gotten efficient with building user-friendly and smooth web apps that look nice.
                 <br><br>
                 From May 2022 to December 2023, I embarked on an intensive 20-month program at Holberton School Tulsa. The program pushed me to my limits and beyond, broadening my knowledge and refining my skills in front-end development.
                 <br><br>
@@ -52,20 +54,20 @@
             <h1>Hogwarts</h1>
             <img class="fullscreen-img" src="./img/hogwarts.png" alt="hogwarts">
             <p>This project was for Holberton School Tulsa, requiring a Harry Potter-themed website. It was made using the React library.</p>
-            <a href=""></a>
+            <a href="https://hogwartsblackmarket.netlify.app/" target=""_blank>See more</a>
         </div>
         <div class="third-proj">
             <h1>Rooted Faith</h1>
             <img class="fullscreen-img" src="./img/rooted-faith.png" alt="rooted faith">
             <p>Rooted Faith was a personal project, aimed at rooting my Christian beliefs in scripture. It was also made using the React library.</p>
-            <a href="https://rootedfaith.netlify.app/">See more</a>
+            <a href="https://rootedfaith.netlify.app/" target="_blank">See more</a>
         </div>
         <div class="third-proj">
             <h1>Felix's Cafe</h1>
             <img class="fullscreen-img" src="./img/felixs-cafe.png" alt="felix's cafe">
             <p>Felix's Cafe was a fictional coffee company, meant to exercise my abilities in design. It was made entirely of HTML and CSS.</p>
             <div class="link-bundle">
-                <a href="https://60f5abe534da350007bea3f1--pensive-elion-ae572c.netlify.app/index.html">See more</a>
+                <a href="https://60f5abe534da350007bea3f1--pensive-elion-ae572c.netlify.app/index.html" target="_blank">See more</a>
             </div>
         </div>
     </div>
@@ -92,5 +94,14 @@
             <a href="https://www.linkedin.com/in/calebehouse/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></div>
     </footer>    
     <script src="./index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed(".auto-type", {
+            strings: ["Front-end Web Developer", "UI/UX Designer", "React Enthusiast", "Team Collaborator", "Continuous Learner"],
+            typeSpeed: 150,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
 </body>
 </html>
