@@ -225,13 +225,12 @@ body {
 footer {
     font-family:'Open Sans', sans-serif;
     background-color: #00AAFF;
-    padding: 3rem 1.25rem;
+    padding: 1rem 1.25rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 20vh;
     color: #000;
 }
 

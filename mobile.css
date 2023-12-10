@@ -107,6 +107,12 @@
         width: 100%;
     }
 
+    #contact form {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
     #footer {
         padding: 5rem 1.25;
     }
